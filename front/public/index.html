@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STUDENT GRADE CALCULATOR</title>
+  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cs.css">
+</head>
+<body>
+  <div class="background">
+    <div class="container">
+      <div class="screen">
+        <div class="screen-body">
+          <div class="screen-body-item left">
+            <div class="app-title">
+              <div class="animated infinite pulse">
+                Student <br> Grade <br> Calculator
+              </div>
+            </div>
+          </div>
+          <div class="screen-body-item">
+            <div class="app-form">
+              <div class="app-form-group">
+                <input type="text" class="app-form-control" placeholder="student name" id="name">
+              </div>
+              <div class="app-form-group">
+                <input type="text" class="app-form-control" placeholder="TAMIL" id="tamil">
+              </div>
+              <div class="app-form-group">
+                <input type="text" class="app-form-control" placeholder="ENGLISH" id="english">
+              </div>
+              <div class="app-form-group">
+                <input  type="text"  class="app-form-control" placeholder="MATHS" id="maths">
+              </div>
+              <div class="app-form-group">
+                <input  type="text"  class="app-form-control" placeholder="COMPUTER" id="comp">
+              </div>
+              <div class="app-form-group">
+                <input  type="text"  class="app-form-control" placeholder="PHYSICS" id="phy">
+              </div>
+              <div> 
+                <input type="button" name="" value="showPercentage" class="app-form-button" onclick="calcy()">
+              </div>            
+            </div>
+          </div>
+        </div> 
+        <div class="app-form-group showdata result_pass result_fail">
+          <p id="show"></p>
+          <p id="showData"></p>
+          <p id="result"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
